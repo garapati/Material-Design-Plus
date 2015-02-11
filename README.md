@@ -2,7 +2,7 @@
 
 ## Folder Structure
 
-		## global/
+		global/
 		|-- animation.jade
 		|-- fonts/ (typography + color)
 			|-- font.jade (heading+list…)
@@ -11,7 +11,7 @@
 			|-- icons.jade
 			|-- icon.styl
 
-		## layout/
+		layout/
 		|-- grid/
 			|-- grid.jade
 			|-- media.jade
@@ -23,7 +23,7 @@
 		|-- head.jade
 		|-- table.jade
 		
-		## elements/
+		elements/
 		|-- buttons.jade
 		|-- form/
 			|-- form.jade
@@ -35,7 +35,7 @@
 		|-- image/
 			|-- image.jade
 		
-		## modules/
+		modules/
 		|-- accordion.jade
 		|-- badges.jade
 		|-- datepicker.jade
