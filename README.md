@@ -1,60 +1,112 @@
 # Material-Design-Plus
 
-// Folder Structur
+## Folder Structure 
+pre
+	code
 
-  ## global/ 
-  |-- animation.jade
-  |-- fonts/ (typography + color)
-  	|-- font.jade (heading+list…)
-  	|-- font.styl
-  |-- icons/
-  	|-- icons.jade
-  	|-- icon.styl
-  
-  ## layout/
-  |-- grid/
-  	|-- grid.jade
-  	|-- media.jade
-  |-- nav/
-  	|-- nav-top.jade
-  	|-- nav-side.jade
-  |-- header.jade
-  |-- footer.jade
-  |-- head.jade
-  |-- table.jade
-  
-  ## elements/
-  |-- buttons.jade
-  |-- form/
-    |-- form.jade
-  	|-- switches.jade
-  	|-- errors.jade
-  	|-- search.jade
-  |-- image.jade
-  |-- video.jade
-  |-- image/
-  	|-- image.jade
-  
-  ## modules/
-  |-- accordion.jade
-  |-- badges.jade
-  |-- datepicker.jade
-  |-- dialogs.jade
-  |-- divider.jade
-  |-- placeholder.jade
-  |-- dropdown.jade
-  |-- modal.jade
-  |-- cards.jade
-  |-- chips.jade
-  |-- rating.jade
-  |-- sliders.jade
-  |-- snackbars-toasts.jade
-  |-- progress.jade
-  |-- tabs.jade
-  |-- tooltips.jade
-  index.jade ( variables + includes )
-  main.styl ( variables + includes )
-  main.js ( variables + includes )
+		## global/
+
+		|-- animation.jade
+
+		|-- fonts/ (typography + color)
+
+			|-- font.jade (heading+list…)
+
+			|-- font.styl
+
+		|-- icons/
+
+			|-- icons.jade
+
+			|-- icon.styl
+		
+
+		## layout/
+
+		|-- grid/
+
+			|-- grid.jade
+
+			|-- media.jade
+
+		|-- nav/
+
+			|-- nav-top.jade
+
+			|-- nav-side.jade
+
+		|-- header.jade
+
+		|-- footer.jade
+
+		|-- head.jade
+
+		|-- table.jade
+
+		
+		## elements/
+
+		|-- buttons.jade
+
+		|-- form/
+
+			|-- form.jade
+
+			|-- switches.jade
+
+			|-- errors.jade
+
+			|-- search.jade
+
+		|-- image.jade
+
+		|-- video.jade
+
+		|-- image/
+
+			|-- image.jade
+
+		
+		## modules/
+
+		|-- accordion.jade
+
+		|-- badges.jade
+
+		|-- datepicker.jade
+
+		|-- dialogs.jade
+
+		|-- divider.jade
+
+		|-- placeholder.jade
+
+		|-- dropdown.jade
+
+		|-- modal.jade
+
+		|-- cards.jade
+
+		|-- chips.jade
+
+		|-- rating.jade
+
+		|-- sliders.jade
+
+		|-- snackbars-toasts.jade
+
+		|-- progress.jade
+
+		|-- tabs.jade
+
+		|-- tooltips.jade
+
+		index.jade ( variables + includes )
+
+		main.styl ( variables + includes )
+
+		main.js ( variables + includes )
+
 
 
 ## License 
