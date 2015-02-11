@@ -2,64 +2,62 @@
 
 // Folder Structur
 
-  - ## Global/ 
-  - |-- Html5boilerplate
-  - |-- Animation.jade
-  - |-- Fonts/ (typography + color)
-  - 	|-- Font.jade (heading+list…)
-  - 	|-- Font.styl
-  - |-- Icons/
-  - 	|-- Icons.jade
-  - 	|-- Icon.styl
-  - 
-  - ## Layout/
-  - |-- Grid/
-  - 	|-- Grid.jade
-  - 	|-- Media.jade
-  - |-- Nav/
-  - 	|-- Nav-top.jade
-  - 	|-- Nav-side.jade
-  - |-- Header.jade
-  - |-- Footer.jade
-  - |-- Head.jade
-  - |-- Table.jade
-  - 
-  - ## Elements/
-  - 
-  - |-- Buttons.jade
-  - |-- Form.jade
-  - 	|-- Switches.jade
-  - 	|-- Errors.jade
-  - 	|-- Search.jade
-  - |-- Image.jade
-  - |-- Video.jade
-  - |-- Image/
-  - 	|-- Image.jade
-  - ## Modules/
-  - 
-  - |-- accordion.jade
-  - |-- Badges.jade
-  - |-- Datepicker.jade
-  - |-- Dialogs.jade
-  - |-- Divider.jade
-  - |-- Placeholder.jade
-  - |-- Dropdown.jade
-  - |-- Modal.jade
-  - |-- Cards.jade
-  - |-- Chips.jade
-  - |-- Rating.jade
-  - |-- Sliders.jade
-  - |-- Snackbars-toasts.jade
-  - |-- Progress.jade
-  - |-- tabs.jade
-  - |-- Tooltips.jade
-  - index.jade ( variables + includes )
-  - main.styl ( variables + includes )
-  - Main.js ( variables + includes )
+  ## global/ 
+  |-- animation.jade
+  |-- fonts/ (typography + color)
+  	|-- font.jade (heading+list…)
+  	|-- font.styl
+  |-- icons/
+  	|-- icons.jade
+  	|-- icon.styl
+  
+  ## layout/
+  |-- grid/
+  	|-- grid.jade
+  	|-- media.jade
+  |-- nav/
+  	|-- nav-top.jade
+  	|-- nav-side.jade
+  |-- header.jade
+  |-- footer.jade
+  |-- head.jade
+  |-- table.jade
+  
+  ## elements/
+  |-- buttons.jade
+  |-- form/
+    |-- form.jade
+  	|-- switches.jade
+  	|-- errors.jade
+  	|-- search.jade
+  |-- image.jade
+  |-- video.jade
+  |-- image/
+  	|-- image.jade
+  
+  ## modules/
+  |-- accordion.jade
+  |-- badges.jade
+  |-- datepicker.jade
+  |-- dialogs.jade
+  |-- divider.jade
+  |-- placeholder.jade
+  |-- dropdown.jade
+  |-- modal.jade
+  |-- cards.jade
+  |-- chips.jade
+  |-- rating.jade
+  |-- sliders.jade
+  |-- snackbars-toasts.jade
+  |-- progress.jade
+  |-- tabs.jade
+  |-- tooltips.jade
+  index.jade ( variables + includes )
+  main.styl ( variables + includes )
+  main.js ( variables + includes )
 
 
 ## License 
-
 (The MIT License)
 
 Copyright (c) 2015 Subbu Garapati
