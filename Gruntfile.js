@@ -25,7 +25,10 @@ module.exports = function(grunt) {
     folders: folders,
     watch: {
       stylus: {
-        files: '<%= folders.app %>/styles/**/*.styl',
+        files: [
+          '<%= folders.app %>/library/**/*.styl',
+          '<%= folders.app %>/library/*.styl'
+        ],
         tasks: ['stylus', 'autoprefixer']
       },
       server: {
@@ -104,7 +107,7 @@ module.exports = function(grunt) {
       compile: {
         files: [{
           expand: true,
-          cwd: '<%= folders.app %>/styles',
+          cwd: '<%= folders.app %>/library',
           src: ['{,*/}*.styl', '!**/_*'],
           dest: '<%= folders.tmp %>/styles',
           ext: '.css'
